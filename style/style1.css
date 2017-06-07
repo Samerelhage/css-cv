@@ -1,4 +1,53 @@
-h2 {color:red;}
-h1 {color: blue;}
-h3 { background: blue;}
+h1 , h2 { color: red;}
+header{ background-color:gray;}
+h3{
+    border-bottom:2px solid gray;
+}
+.skill {
+    background-color: red;
+    width:100px;
+    margin-top:5px;
+}
+.skills.skills-primary{
+    background-color: gray;
+}
+.skills.skills-secondary{
+    background-color:gray;
 
+}
+
+.experience-type{
+    color:red;
+}
+.experience-institution{
+    color:red;
+}
+.experience-date-separator{
+    color:red;
+}
+.experience-date{
+    color: gray;
+}
+.experience-location{
+    color:gray;
+}
+.contact-type{
+    color:white;
+    background-color:red;
+    width:120px;
+    margin-top:-16px;
+}
+.contact-value{
+    color:black;
+    background-color:black;
+    margin-left:120px;
+    margin-top:-18px;
+}
+.contact-value{
+    color:red;
+}
+#contact{
+      position: absolute;
+    left: 750px;
+    top: 50px;
+}
