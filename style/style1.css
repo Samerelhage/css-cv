@@ -1,12 +1,29 @@
 h1 , h2 { color: red;}
 header{ background-color:gray;}
+
 h3{
     border-bottom:2px solid gray;
 }
-.skill {
+.skill[data-skill="5"] {
     background-color: red;
-    width:100px;
+    width:50%;
     margin-top:5px;
+}
+.skill[data-skill="3"]{
+    background-color:red;
+    width:30%;
+}
+.skill[data-skill="1"]{
+    background-color:red;
+    width:10%;
+}
+.skill[data-skill="9"]{
+    background-color: red;
+    width:90%;
+}
+.skill[data-skill="7"]{
+    background-color:red;
+    width:70%;
 }
 .skills.skills-primary{
     background-color: gray;
@@ -42,12 +59,25 @@ h3{
     background-color:black;
     margin-left:120px;
     margin-top:-18px;
+    
 }
-.contact-value{
-    color:red;
-}
+
 #contact{
       position: absolute;
-    left: 750px;
+    left: 600px;
     top: 50px;
+}
+.skills.skills-primary::before{
+    content:"Main";
+}
+.skills.skills-secondary::before{
+    content:"other";
+}
+.experience-details::before{
+    content:"In";
+    color:gray;
+}
+.experience-institution:before{
+    content:"@";
+    color: red;
 }
