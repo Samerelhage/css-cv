@@ -1,36 +1,48 @@
-h1 , h2 { color: red;}
-header{ background-color:gray;}
+h1 , h2 { color: red;
+margin-left :20px;}
+header{ background-color:gray;
+
+}
 
 h3{
     border-bottom:2px solid gray;
 }
-.skill[data-skill="5"] {
+
+[data-skill="5"] span {
     background-color: red;
     width:50%;
-    margin-top:5px;
+    margin-top:10px;
 }
-.skill[data-skill="3"]{
+
+[data-skill="3"]span{
     background-color:red;
-    width:30%;
+    margin-right:30%;
+    margin-top:10px;
 }
-.skill[data-skill="1"]{
+[data-skill="1"]span
+{
     background-color:red;
     width:10%;
+    margin-top:10px;
 }
-.skill[data-skill="9"]{
+[data-skill="9"]span
+{
     background-color: red;
     width:90%;
+    margin-top:10px;
 }
-.skill[data-skill="7"]{
+[data-skill="7"]span
+{
     background-color:red;
     width:70%;
+    margin-top:10px;
 }
-.skills.skills-primary{
-    background-color: gray;
+.skill span{
+    background-color:red;
 }
-.skills.skills-secondary{
-    background-color:gray;
 
+.skill{
+    background:gray;
 }
 
 .experience-type{
@@ -59,9 +71,7 @@ h3{
     background-color:black;
     margin-left:120px;
     margin-top:-18px;
-    
 }
-
 #contact{
       position: absolute;
     left: 600px;
@@ -81,3 +91,8 @@ h3{
     content:"@";
     color: red;
 }
+.section{
+    float:left;
+    padding-left:200px;
+}
+
