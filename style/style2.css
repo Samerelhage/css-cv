@@ -1,33 +1,57 @@
 .experience-type {
     color:teal;
-
 }
-.skills.skills-primary::after {
-    content: "";
-    clear: both;
-    display: table;float: left;
-    padding: 20px;
+h2{
+    display:none;
+}
+
+.skill{
+    background-color:teal;
+    width: 150px;
+    height: 25px;
+    border: 2px dotted teal;
+    overflow: visible;
+    margin-top:4px;  
+    float:left;
+    margin-left:4px;
+
 }
 
 .skill[data-skill="5"]::after{
     content:"★★★";
-    color:black;
+    color:white;
 }
 .skill[data-skill="3"]::after{
     content:"★★";
-    color:black;
+    color:white;
     padding-left:10px;
 }
 .skill[data-skill="1"]::after{
     content:"★";
     padding-left:10px;
+    color:white;
+    
 }
 .skill[data-skill="9"]::after{
     content:"★★★★★";
-    color:black;
-padding-left:10px;
+    color:white;
+    padding-left:10px;
 }
 .skill[data-skill="7"]::after{
     content:"★★★★";
     padding-left:10px;
+    color:white;
+}
+.experience-institution{
+    display:none;
+}
+#about{
+
+    color:grey;}
+#about h3{
+    display:none;
+}
+title{
+    border-bottom-style: solid 10px;
+
 }
