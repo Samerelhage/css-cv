@@ -1,3 +1,33 @@
-h2 {color:red;}
-h1 {color: blue;}
-h3 { background: green;}
+.experience-type {
+    color:teal;
+
+}
+.skills.skills-primary::after {
+    content: "";
+    clear: both;
+    display: table;float: left;
+    padding: 20px;
+}
+
+.skill[data-skill="5"]::after{
+    content:"★★★";
+    color:black;
+}
+.skill[data-skill="3"]::after{
+    content:"★★";
+    color:black;
+    padding-left:10px;
+}
+.skill[data-skill="1"]::after{
+    content:"★";
+    padding-left:10px;
+}
+.skill[data-skill="9"]::after{
+    content:"★★★★★";
+    color:black;
+padding-left:10px;
+}
+.skill[data-skill="7"]::after{
+    content:"★★★★";
+    padding-left:10px;
+}
