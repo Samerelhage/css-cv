@@ -14,9 +14,13 @@ h2{
     margin-top:4px;  
     float:left;
     margin-left:4px;
-    clear:none;
 }
-
+.skill[data-skill="9"]{
+    clear:left;  
+}
+#experience{
+    clear:left;
+}
 .skill[data-skill="5"]::after{
     content:"★★★";
     color:white;
@@ -53,14 +57,50 @@ h2{
 }
 h1{
     border-bottom: 2px solid gray;
-    }
-.experiences{
-    width:1000px;
-    padding-left:100px;
+    
 }
 .education{
     padding-left:100px;
 }
 img{
     float:right;
+}
+.contact.contact-email{
+    background-image:url(../images/email.png);
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    background-size:100px;
+    height:100px;
+    font-size:0px;
+}
+.contact.contact-phone{
+    background-image:url(../images/phone.png);
+    background-repeat:no-repeat;
+    background-position:10% 50%;
+    background-size:100px;
+    height:100px;
+    font-size:0px;
+}
+.contact.contact-github{
+    background-image:url(../images/github.png);
+    background-repeat:no-repeat;
+    background-position:10% 50%;
+    background-size:100px;
+    height:100px;
+    font-size:0px;
+}
+.contact.contact-facebook{
+    background-image:url(../images/facebook.png);
+    background-repeat:no-repeat;
+    background-position:10% 50%;
+    background-size:100px;
+    height:100px;
+    font-size:0px;
+}
+.contact.contact-skype{ 
+    display:none;
+}
+.contact{
+    float:left;
+    padding-left:80px;
 }
