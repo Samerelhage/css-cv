@@ -14,7 +14,7 @@ h2{
     margin-top:4px;  
     float:left;
     margin-left:4px;
-
+    clear:none;
 }
 
 .skill[data-skill="5"]::after{
@@ -51,7 +51,16 @@ h2{
 #about h3{
     display:none;
 }
-title{
-    border-bottom-style: solid 10px;
-
+h1{
+    border-bottom: 2px solid gray;
+    }
+.experiences{
+    width:1000px;
+    padding-left:100px;
+}
+.education{
+    padding-left:100px;
+}
+img{
+    float:right;
 }
