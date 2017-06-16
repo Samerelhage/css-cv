@@ -34,6 +34,12 @@ body{
 h2{
     display:none;
 }
+.skills.skills-primary{
+    margin-left:115px;     
+}
+.skills.skills-secondary{
+    margin-left:115px;
+}
 
 .skill{
     background-color:teal;
